@@ -5,11 +5,10 @@ public class Primenumber{
         int n,i,flag=0;
         System.out.print("ENTER THE DIGIT : ");
         n=sc.nextInt();
-        while(n>1){
+        while(n!=1){
         for(i=2;i<=n/2;i++){
             if(n%i==0 ){
                flag=1;
-               break;
             }
         }
         if(flag==1){
